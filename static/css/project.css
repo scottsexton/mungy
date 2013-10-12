@@ -1,0 +1,46 @@
+html, body { 
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a.delete_link {
+    color: red;
+}
+
+div.uploaded_image {
+    float: left;
+    width: 310px;
+    height: 340px;
+}
+
+div.delete_link {
+    float: left;
+    margin-right: 4px;
+}
+
+div.center {
+    text-align: center;
+}
+
+#image_library {
+    width: 930px;
+    float: left;
+}
+
+#form_column {
+    float: right;
+    height: 100%;
+    background-color: #81BEF7;
+    padding: 6px;
+}
+
+.lefty {
+    float: left;
+}
